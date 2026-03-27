@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+        a { color: #0066cc; }
+    </style>
+</head>
+<body>
+
+    <h1>Chi Sono</h1>
+    <p>Questa pagina contiene informazioni sull'autore o sul progetto.</p>
+
+    <h2>La mia missione</h2>
+    <p>Descrizione della missione, degli obiettivi o della storia del sito.</p>
+
+    <p><a href="index.html">⬅ Torna alla Home</a></p>
+
+</body>
+</html>
