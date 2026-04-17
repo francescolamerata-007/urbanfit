@@ -3,85 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urban Fit - Servizi</title>
+    <title>Servizi - UrbanFit</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #111;
+            background: linear-gradient(to right, #1e1e1e, #444);
             color: white;
-        }
-
-        header {
-            background-color: #000;
-            padding: 15px;
             text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            letter-spacing: 2px;
-        }
-
-        .container {
-            padding: 20px;
+            margin: 0;
         }
 
         h1 {
-            text-align: center;
-            margin-bottom: 10px;
+            margin-top: 30px;
         }
 
-        p {
-            text-align: center;
-            color: #ccc;
+        .box {
+            background: white;
+            color: black;
+            padding: 20px;
+            margin: 30px auto;
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
         }
 
         ul {
-            list-style: none;
             padding: 0;
-            margin-top: 30px;
         }
 
         li {
-            background-color: #1f1f1f;
+            list-style: none;
             margin: 10px 0;
-            padding: 15px;
-            border-radius: 8px;
-        }
-
-        li strong {
-            color: #00c3ff;
         }
 
         a {
-            display: block;
-            text-align: center;
-            margin-top: 30px;
+            display: inline-block;
+            margin-top: 20px;
+            color: #00ccff;
             text-decoration: none;
-            color: white;
-            background-color: #00c3ff;
-            padding: 10px;
-            border-radius: 6px;
         }
     </style>
 </head>
 
 <body>
 
-    <header>URBAN FIT</header>
+    <h1>UrbanFit - Servizi</h1>
+    <p>I nostri servizi per te 👇</p>
 
-    <div class="container">
-        <h1>I Nostri Servizi</h1>
-        <p>Stile urbano, qualità e comfort.</p>
-
+    <div class="box">
         <ul>
-            <li><strong>Spedizione veloce:</strong> Consegna rapida in tutta Italia</li>
-            <li><strong>Reso facile:</strong> Cambia i tuoi capi senza problemi</li>
-            <li><strong>Nuove collezioni:</strong> Aggiornamenti costanti con nuovi outfit</li>
+            <li><strong>Spedizione veloce</strong></li>
+            <li><strong>Reso facile</strong></li>
+            <li><strong>Nuove collezioni</strong></li>
         </ul>
-
-        <a href="index.html">⬅ Torna alla Home</a>
     </div>
+
+    <a href="index.html">⬅ Torna alla Home</a>
 
 </body>
 </html>
