@@ -1,24 +1,67 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Chi Sono - UrbanFit</title>
+
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
-        a { color: #0066cc; }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e1e1e, #444);
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 30px;
+        }
+
+        .box {
+            background: white;
+            color: black;
+            padding: 20px;
+            margin: 30px auto;
+            width: 320px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #00ccff;
+            text-decoration: none;
+        }
     </style>
 </head>
+
 <body>
 
-    <h1>Chi Sono</h1>
-    <p>Questa pagina contiene informazioni sull'autore o sul progetto.</p>
+    <h1>UrbanFit - Chi Sono</h1>
 
-    <h2>La mia missione</h2>
-    <p>Descrizione della missione, degli obiettivi o della storia del sito.</p>
+    <div class="box">
+        <p>Questa pagina contiene alcune informazioni sul progetto.</p>
 
-    <p><a href="index.html">⬅ Torna alla Home</a></p>
+        <h2>La mia missione</h2>
+
+        <p>
+            L'obiettivo di questo sito è condividere idee, progetti e contenuti
+            in modo semplice e chiaro.
+        </p>
+    </div>
+
+    <a href="index.html">⬅ Torna alla Home</a>
 
 </body>
 </html>
