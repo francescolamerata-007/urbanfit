@@ -3,25 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servizi</title>
+    <title>Urban Fit - Servizi</title>
+
     <style>
-        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
-        ul { line-height: 1.8; }
-        a { color: #0066cc; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            background-color: #000;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: #ccc;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+
+        li {
+            background-color: #1f1f1f;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        li strong {
+            color: #00c3ff;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            text-decoration: none;
+            color: white;
+            background-color: #00c3ff;
+            padding: 10px;
+            border-radius: 6px;
+        }
     </style>
 </head>
+
 <body>
 
-    <h1>I Servizi Offerti</h1>
-    <p>Elenco dei servizi disponibili:</p>
+    <header>URBAN FIT</header>
 
-    <ul>
-        <li>Servizio 1 – Descrizione breve</li>
-        <li>Servizio 2 – Descrizione breve</li>
-        <li>Servizio 3 – Descrizione breve</li>
-    </ul>
+    <div class="container">
+        <h1>I Nostri Servizi</h1>
+        <p>Stile urbano, qualità e comfort.</p>
 
-    <p><a href="index.html">⬅ Torna alla Home</a></p>
+        <ul>
+            <li><strong>Spedizione veloce:</strong> Consegna rapida in tutta Italia</li>
+            <li><strong>Reso facile:</strong> Cambia i tuoi capi senza problemi</li>
+            <li><strong>Nuove collezioni:</strong> Aggiornamenti costanti con nuovi outfit</li>
+        </ul>
+
+        <a href="index.html">⬅ Torna alla Home</a>
+    </div>
 
 </body>
 </html>
