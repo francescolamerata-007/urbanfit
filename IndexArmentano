@@ -2,20 +2,21 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UrbanFit - Home</title>
 
     <style>
         body {
-            font-family: Arial;
-            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e1e1e, #444);
+            color: white;
+            text-align: center;
             margin: 0;
+            padding: 0;
         }
 
         header {
-            background-color: #111;
-            color: white;
-            padding: 15px;
-            text-align: center;
+            margin-top: 30px;
         }
 
         h1 {
@@ -26,14 +27,6 @@
             padding: 20px;
         }
 
-        h2 {
-            color: #333;
-        }
-
-        p {
-            color: #555;
-        }
-
         img {
             width: 200px;
             margin: 10px;
@@ -42,23 +35,25 @@
         }
 
         table {
+            margin: 20px auto;
             border-collapse: collapse;
-            margin-top: 20px;
-            background-color: white;
+            background: white;
+            color: black;
         }
 
         th {
             background-color: #111;
             color: white;
+            padding: 10px;
         }
 
-        th, td {
+        td {
             border: 1px solid #ccc;
             padding: 10px;
         }
 
         a {
-            color: #0077cc;
+            color: #00ccff;
             text-decoration: none;
         }
 
@@ -67,10 +62,6 @@
         }
 
         footer {
-            background-color: #111;
-            color: white;
-            text-align: center;
-            padding: 10px;
             margin-top: 30px;
         }
     </style>
